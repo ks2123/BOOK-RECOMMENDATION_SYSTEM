@@ -1,6 +1,25 @@
+# Virtual Environment
 .venv/
-data/
+env/
+venv/
+
+# Python Cache
 __pycache__/
-*.csv
-*.pkl
+*.pyc
+
+# Node / React Dependencies
+node_modules/
+dist/
+build/
+
+# Environment Variables & OS Files
+.env
 .DS_Store
+.vscode/
+backend\artifacts\data
+# Ignore raw datasets
+backend/artifacts/data/
+*.csv
+backend/artifacts/data/raw/Books.csv
+backend/artifacts/books.pkl
+backend/artifacts/data/processed/clean_books.csv
